@@ -86,7 +86,7 @@ Secrets shall not be committed to source control or exposed in logs. Authenticat
 * Kotlin and Ktor are the initial technology direction.
 * SMS is the initial notification channel.
 * Notification processing is asynchronous.
-* The initial system shall use a single deployable service unless a documented architectural decision justifies separation.
+* The initial architecture shall use a single deployable application with explicit boundaries between API handling and asynchronous notification processing. Separating these responsibilities into independently deployable components shall require a documented architectural decision justified by operational or business requirements.
 * The architecture shall support multi-tenancy from the beginning.
 * Dashboard, scheduling, webhooks, provider failover, and additional notification channels are future capabilities unless explicitly included in an approved implementation scope.
 * Technology choices shall remain consistent with the approved requirements baseline and documented architecture decisions.
