@@ -210,14 +210,15 @@ The following constraints govern implementation unless formally changed through 
 
 ## 13. Architecture Decision Records
 
-The following decisions must be documented and reviewed before the implementation depends on them:
+The following Architecture Decision Records document the major architectural choices for the initial release:
 
-* **ADR-001 — Initial Application Architecture:** Establish the single-deployable-application approach and internal architectural boundaries.
-* **ADR-002 — Asynchronous Processing:** Select the initial work-discovery, claiming, recovery, and dispatch approach.
-* **ADR-003 — Multi-Tenancy:** Define the initial tenant-isolation and tenant-context enforcement strategy.
-* **ADR-004 — Authentication:** Establish the initial API-key authentication and credential-management approach.
+* **ADR-001 — Initial Application Architecture:** Establishes the single-deployable-application approach and internal architectural boundaries.
+* **ADR-002 — Asynchronous Notification Processing:** Defines the proposed work-discovery, claiming, recovery, and dispatch strategy.
+* **ADR-003 — Multi-Tenancy and Tenant Isolation:** Defines the proposed tenant-isolation and tenant-context enforcement strategy.
+* **ADR-004 — Authentication and Credential Management:** Defines the proposed API-key authentication and credential-management approach.
+* **ADR-005 — Relational Database Selection:** Recommends PostgreSQL as the primary relational database for the initial release.
 
-Additional decisions may be created when persistence technology, provider selection, retry policy, or other material choices require a durable record.
+These records remain subject to formal architecture review and acceptance. Additional ADRs should be created when a material technical or operational decision requires an explicit record of its context, alternatives, consequences, and reconsideration criteria.
 
 ## 14. Supporting Architecture Documents
 
