@@ -252,6 +252,6 @@ Supporting documents must remain consistent with the approved requirements basel
 
 ## 16. Status
 
-**Status:** Proposed for architecture review.
+**Status:** Accepted.
 
 The architectural direction, major responsibilities, constraints, and supporting documents are established. Technology selections, detailed API contracts, deployment configuration, retry parameters, operational thresholds, and other implementation-specific choices remain subject to explicit decisions.

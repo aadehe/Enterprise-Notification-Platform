@@ -171,4 +171,4 @@ Any reconsideration must document the observed problem, alternatives evaluated, 
 
 ## 9. Status
 
-**Proposed:** The decision is documented for review and has not yet been formally accepted.
+**Accepted:** The decision is documented and has been formally accepted.

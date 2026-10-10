@@ -183,4 +183,4 @@ Any proposed replacement must document its effect on consistency, concurrency, t
 
 ## 9. Status
 
-**Proposed:** PostgreSQL is recommended for the initial release. Formal acceptance remains pending architecture review.
+**Accepted:** PostgreSQL is recommended for the final release.

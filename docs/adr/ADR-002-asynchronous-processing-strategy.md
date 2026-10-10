@@ -188,4 +188,4 @@ Anticipated future scale alone is not sufficient justification.
 
 ## 9. Status
 
-**Proposed:** The decision is documented for review and has not yet been formally accepted.
+**Accepted:** The decision is documented and has been formally accepted.
