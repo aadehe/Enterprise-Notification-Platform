@@ -183,4 +183,4 @@ Any proposed replacement must document its effect on consistency, concurrency, t
 
 ## 9. Status
 
-**Accepted:** PostgreSQL is recommended for the final release.
+**Accepted:** PostgreSQL is the selected primary relational database for the initial release.
