@@ -1,6 +1,6 @@
 # ADR-004: Authentication and Credential Management
 
-* **Status:** Proposed
+* **Status:** Accepted
 * **Date:** 2026-10-10
 * **Decision owners:** Enterprise Notification Platform project
 * **Related documents:**

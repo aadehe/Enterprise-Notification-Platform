@@ -1,6 +1,6 @@
 # ADR-001: Initial Application Architecture
 
-* **Status:** Proposed
+* **Status:** Accepted
 * **Date:** 2026-10-09
 * **Decision owners:** Enterprise Notification Platform project
 * **Related documents:**

@@ -213,12 +213,12 @@ The following constraints govern implementation unless formally changed through 
 The following Architecture Decision Records document the major architectural choices for the initial release:
 
 * **ADR-001 — Initial Application Architecture:** Establishes the single-deployable-application approach and internal architectural boundaries.
-* **ADR-002 — Asynchronous Notification Processing:** Defines the proposed work-discovery, claiming, recovery, and dispatch strategy.
-* **ADR-003 — Multi-Tenancy and Tenant Isolation:** Defines the proposed tenant-isolation and tenant-context enforcement strategy.
-* **ADR-004 — Authentication and Credential Management:** Defines the proposed API-key authentication and credential-management approach.
+* **ADR-002 — Asynchronous Notification Processing:** Defines the accepted work-discovery, claiming, recovery, and dispatch strategy.
+* **ADR-003 — Multi-Tenancy and Tenant Isolation:** Defines the accepted tenant-isolation and tenant-context enforcement strategy.
+* **ADR-004 — Authentication and Credential Management:** Defines the accepted API-key authentication and credential-management approach.
 * **ADR-005 — Relational Database Selection:** Recommends PostgreSQL as the primary relational database for the initial release.
 
-These records remain subject to formal architecture review and acceptance. Additional ADRs should be created when a material technical or operational decision requires an explicit record of its context, alternatives, consequences, and reconsideration criteria.
+These records remain the formal architecture after review and acceptance. Additional ADRs should be created when a material technical or operational decision requires an explicit record of its context, alternatives, consequences, and reconsideration criteria.
 
 ## 14. Supporting Architecture Documents
 
@@ -242,9 +242,9 @@ The requirements baseline remains the source of the approved initial product req
 
 ## 15. Review and Change Control
 
-This baseline represents the proposed architecture for review before implementation.
+This baseline represents the accepted architecture after review and before implementation.
 
-Material changes to architectural constraints, trust boundaries, notification consistency guarantees, or major infrastructure choices must be documented and reviewed.
+Material changes to architectural constraints, trust boundaries, notification consistency guarantees, or major infrastructure choices have been documented and reviewed.
 
 Architecture Decision Records must capture the context, decision, alternatives considered, consequences, and conditions that would justify revisiting a decision.
 

@@ -1,6 +1,6 @@
 # ADR-005: Relational Database Selection
 
-* **Status:** Proposed
+* **Status:** Accepted
 * **Date:** 2026-10-10
 * **Decision owners:** Enterprise Notification Platform project
 * **Related documents:**
@@ -36,7 +36,7 @@ The decision is guided by the following considerations:
 
 ## 3. Decision
 
-**PostgreSQL is the recommended primary relational database for the initial release.** This ADR remains proposed until the decision is formally reviewed and accepted.
+**PostgreSQL is the accepted primary relational database for the initial release.**  
 
 PostgreSQL will serve as the authoritative persistence store for core platform records, including notification lifecycle state and the records needed to recover asynchronous work.
 

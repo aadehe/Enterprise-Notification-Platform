@@ -1,6 +1,6 @@
 # ADR-003: Multi-Tenancy and Tenant Isolation
 
-* **Status:** Proposed
+* **Status:** Accepted
 * **Date:** 2026-10-10
 * **Decision owners:** Enterprise Notification Platform project
 * **Related documents:**
