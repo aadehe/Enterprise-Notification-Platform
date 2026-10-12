@@ -133,7 +133,7 @@ Retries must be bounded and based on failure classification. Uncertain provider 
 
 The persistence design must support durable notification acceptance, tenant isolation, concurrency-safe idempotency, processing recovery, and notification lifecycle integrity.
 
-PostgreSQL is a candidate for the initial persistence technology, subject to a documented decision.
+PostgreSQL is the selected primary relational database for the initial release, as recorded in ADR-005
 
 Database transactions must protect related internal state changes where required. The architecture must not assume that a database transaction can make an external provider submission atomic with a local database update.
 
@@ -216,7 +216,7 @@ The following Architecture Decision Records document the major architectural cho
 * **ADR-002 — Asynchronous Notification Processing:** Defines the accepted work-discovery, claiming, recovery, and dispatch strategy.
 * **ADR-003 — Multi-Tenancy and Tenant Isolation:** Defines the accepted tenant-isolation and tenant-context enforcement strategy.
 * **ADR-004 — Authentication and Credential Management:** Defines the accepted API-key authentication and credential-management approach.
-* **ADR-005 — Relational Database Selection:** Recommends PostgreSQL as the primary relational database for the initial release.
+* **ADR-005 — Relational Database Selection:** Records the selection of PostgreSQL as the primary relational database for the initial release.
 
 These records remain the formal architecture after review and acceptance. Additional ADRs should be created when a material technical or operational decision requires an explicit record of its context, alternatives, consequences, and reconsideration criteria.
 
